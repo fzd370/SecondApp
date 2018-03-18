@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivamspc.secondapp.MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="380dp"
+        android:src="@drawable/i"
+
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="150dp"
+        android:fontFamily="sans-serif-light"
+        android:text="SHIVAM SHUKLA"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Occupation: - I am a student.
+Status: - Care less and Smile more ;).
+Contact Info: -
+E-Mail - xyz@gmail.com
+Phone Number - 9526492626423"
+        android:layout_alignParentBottom="true"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="60dp"
+        android:textColor="#212121"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="380dp"
+        android:background="#006064"
+        android:id="@+id/c2"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="380dp"
+        android:background="#006064"
+        android:layout_alignParentRight="true"
+        android:id="@+id/d3"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#FF1744"
+        android:layout_below="@id/c2"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#FF1744"
+        android:layout_below="@id/d3"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
